@@ -1,5 +1,5 @@
 #! python3
-import requests        #引用requests模块
+import requests
 
 req=requests.get('http://www.weather.com.cn/data/sk/101010100.html')
 req.encoding='utf-8'
